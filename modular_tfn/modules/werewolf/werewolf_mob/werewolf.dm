@@ -185,6 +185,7 @@
 	pixel_w = -8
 
 	werewolf_armor = 40
+	brutemod = 0.75
 
 /mob/living/carbon/werewolf/crinos/Initialize()
 	. = ..()
@@ -245,7 +246,7 @@
 	. = ..()
 
 /datum/movespeed_modifier/crinosform
-	multiplicative_slowdown = -0.2
+	multiplicative_slowdown = -0.35
 
 /datum/movespeed_modifier/silver_slowdown
 	multiplicative_slowdown = 0.3
